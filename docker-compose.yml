@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  meqsilhouette:
+    build: .
+    image: meqsil
+    volumes:
+      - ./data:/home/meqsil_user/data
+    environment:
+      - INPUT_FILE=test.json
+    stdin_open: true
+    tty: true

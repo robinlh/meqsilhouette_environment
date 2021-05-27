@@ -1,6 +1,6 @@
 # meqsilhouette_environment
 
-To run with docker-compose:
+To run with docker-compose (will also build image if not already built):
 ```
 docker-compose run meqsilhouette
 ```
